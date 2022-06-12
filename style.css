@@ -1,9 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin-left: 56px;
+    margin-top: 56px;
 }
 
 .container{
     background-color: #f7e1c2;
+    margin-bottom: 56px;
+    height: 80px;
+    text-align: center;
 }
 h1,h2,h3,h4,p,li{
     font-family: sans-serif;
@@ -40,6 +49,7 @@ li{
 .related-post-author{
     font-size: 16px;
     font-weight: bold;
+    margin:20px ;
 }
 .list-styling{
     list-style: none;
@@ -48,6 +58,7 @@ li{
     background-color: #f8e8c9;
     border-top: 5px solid #7a4a01;
     border-bottom: 5px solid #7a4a01;
+    width: 500px;
 }
 li:first-child{
     font-weight: bold;
@@ -63,3 +74,27 @@ a{
     text-decoration: none;
 }
 a:hover{color: red;}
+.image1{
+    height:auto;
+    width: 100%;
+}
+.image2{
+    height:auto;
+    width: 100%;
+}
+.image3{
+    height:auto;
+    width: 50%;
+}
+.image4{
+    height:auto;
+    width: 50%;
+}
+.image5{
+    height: auto;
+    width: 50%;
+}
+.global{
+    width: 1000px;
+    margin: 0;
+}
