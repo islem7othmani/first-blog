@@ -1,0 +1,42 @@
+
+article{
+    border: 4px solid rgb(0, 0, 0) ;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color:rgb(247, 191, 128);
+}
+.myb{
+background-color: #0000;
+color: #ffff;
+cursor: pointer;
+}
+.myb:hover{
+    background-color: rgba(223, 163, 163, 0);
+}
+.price{
+    font-size: 40px;
+}
+.paragraphe{
+    font-size: 12px;
+   text-transform: uppercase; 
+}
+a:link,
+a:visited{
+    color:#0000;
+    text-decoration: underline;
+}
+a:hover ,
+a:active{
+    text-decoration: underline wavy;
+}
+.learn{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.mylist{
+    list-style: square;
+}
